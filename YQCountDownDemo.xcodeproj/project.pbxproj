@@ -15,6 +15,7 @@
 		AB0F1A2D2092C299003D96AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0F1A2C2092C299003D96AA /* main.m */; };
 		AB0F1A372092C299003D96AA /* YQCountDownDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0F1A362092C299003D96AA /* YQCountDownDemoTests.m */; };
 		AB0F1A422092C299003D96AA /* YQCountDownDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0F1A412092C299003D96AA /* YQCountDownDemoUITests.m */; };
+		AB0F1A522092C307003D96AA /* YQCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0F1A512092C307003D96AA /* YQCountDownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AB0F1A3D2092C299003D96AA /* YQCountDownDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQCountDownDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0F1A412092C299003D96AA /* YQCountDownDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCountDownDemoUITests.m; sourceTree = "<group>"; };
 		AB0F1A432092C299003D96AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0F1A502092C307003D96AA /* YQCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCountDownButton.h; sourceTree = "<group>"; };
+		AB0F1A512092C307003D96AA /* YQCountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCountDownButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		AB0F1A1C2092C297003D96AA /* YQCountDownDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AB0F1A4F2092C2F5003D96AA /* YQCountDowunButton */,
 				AB0F1A1D2092C297003D96AA /* AppDelegate.h */,
 				AB0F1A1E2092C297003D96AA /* AppDelegate.m */,
 				AB0F1A202092C297003D96AA /* ViewController.h */,
@@ -130,6 +134,15 @@
 				AB0F1A432092C299003D96AA /* Info.plist */,
 			);
 			path = YQCountDownDemoUITests;
+			sourceTree = "<group>";
+		};
+		AB0F1A4F2092C2F5003D96AA /* YQCountDowunButton */ = {
+			isa = PBXGroup;
+			children = (
+				AB0F1A502092C307003D96AA /* YQCountDownButton.h */,
+				AB0F1A512092C307003D96AA /* YQCountDownButton.m */,
+			);
+			path = YQCountDowunButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB0F1A222092C297003D96AA /* ViewController.m in Sources */,
+				AB0F1A522092C307003D96AA /* YQCountDownButton.m in Sources */,
 				AB0F1A2D2092C299003D96AA /* main.m in Sources */,
 				AB0F1A1F2092C297003D96AA /* AppDelegate.m in Sources */,
 			);
